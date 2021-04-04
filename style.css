@@ -1,0 +1,119 @@
+img{
+    width:400px;
+    height: 400px;
+   
+}
+.container{
+  margin-top:80px;
+}
+
+.clock-box{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  font-family:'Teko',sans-serif ;
+  font-weight: bold;
+  font-size:50px;
+  color:#ff6161;
+  line-height:2em ;
+  background-color: black;
+  height: 200px;
+  border-radius:50% ;
+}
+#date{
+  font-size: 30px ;
+}
+#myDIV{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+  position:relative;
+  top:20px;
+}
+#myinput{
+  width:400px;
+  height: 60px;
+  outline: none;
+  border:3px solid #ff6161;
+  color: #ff6161;
+  font-size:20px;
+  font-weight: bold;
+  background-color: black;
+}
+::placeholder{
+  color:#ff6161;
+  font-weight: bold;
+  font-size:20px;
+  margin-left:20px ;
+}
+.addBtn{
+  background-color: #ff6161;
+  border:3px solid black;
+  width:100px;
+  text-align: center;
+  font-weight: bold;
+  font-size:35px;
+  height: 60px;
+}
+.imp{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ margin:auto;
+ 
+}
+#tasks{
+
+color:black;
+font-size:25px;
+font-weight:500;
+
+position:absolute;
+top:20px;
+box-shadow:5px 5px 6px rgba(0,0,0,0.4);
+}
+
+.task{
+  
+  width:500px;
+  height: 60px;
+  background-color:rgba(255,97,97,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom:2px solid black;
+  padding: 5px 10px;
+  cursor:pointer;
+  
+
+}
+.task button{
+
+  background-color: black;
+  color:#ff6161;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline:none;
+}
+.completed{
+ 
+ text-decoration:line-through;
+}
+
+@media screen and (max-width:680px){
+  .task{
+    width:400px;
+  }
+  .addBtn{
+    width:100px;
+  }
+#myinput{
+  width:300px;
+}
+}
