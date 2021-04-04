@@ -108,12 +108,12 @@ box-shadow:5px 5px 6px rgba(0,0,0,0.4);
 
 @media screen and (max-width:680px){
   .task{
-    width:400px;
+    width:380px;
   }
   .addBtn{
-    width:100px;
+    width:90px;
   }
 #myinput{
-  width:300px;
+  width:290px;
 }
 }
